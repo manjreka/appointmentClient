@@ -1,0 +1,63 @@
+.slider-container {
+  width: 80%;
+  /* Adjust as needed */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slick-slide {
+  display: flex;
+  /* Ensures slides align correctly */
+  justify-content: center;
+  /* Centers slide content */
+}
+
+.slick-slide .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Adjust as needed */
+}
+
+.slick-1-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-slick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  min-width: 75vw;
+  background-image: url('https://res.cloudinary.com/dtzajnril/image/upload/v1722088543/tf-bg_hzj412.png');
+  background-size: cover;
+  background-position: center;
+  /* Center the background image */
+  background-repeat: no-repeat;
+  /* Prevent repeating the background image */
+}
+
+.man {
+  width: 573px;
+  align-self: center;
+
+}
+
+.building {
+  width: 165px;
+  align-self: center;
+}
+
+.main-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-styling-centric {
+  width: 37vw;
+}
